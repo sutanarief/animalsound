@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +39,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.sheep-card {
+  width: 25rem;
+  max-height: fit-content;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+img {
+  border-radius: 1em;
+}
+
+.sheep-card:hover {
+  transform: scale(1.1)
 }
