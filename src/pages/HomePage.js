@@ -16,6 +16,7 @@ const HomePage = () => {
 
   useEffect(() => {
     playing[nowPlaying] ? audio.play() : audio.pause()
+    // eslint-disable-next-line
   }, [playing])
 
   return (
